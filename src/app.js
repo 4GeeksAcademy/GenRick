@@ -1,11 +1,18 @@
-/* eslint-disable */
-import "bootstrap";
-import "./style.css";
+var weekday = '';
+weekday = prompt('Qué dia de la semana es hoy');
 
-import "./assets/img/rigo-baby.jpg";
-import "./assets/img/4geeks.ico";
+switch(weekday)
+{
+	case "Lunes":
+		console.log('Es el comienzo de una semana aburrida');
+	break;
 
-window.onload = function() {
-  //write your code here
-  console.log("Hello Rigo from the console!");
-};
+	case "Viernes":
+		console.log('De Carrete!');
+	break;
+
+	default:
+		console.log('Es otro dia aburrido....');
+	break;
+}
+
